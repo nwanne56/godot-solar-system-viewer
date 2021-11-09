@@ -4,8 +4,8 @@ var sens = .1
 var hspd = 0
 var fspd = 0
 var uspd = 0
-var rotationx = 0
-var rotationy = 0
+var rotationx = 45
+var rotationy = -45
 # Declare member variables here. Examples:
 # var a = 2
 # var b = "text"

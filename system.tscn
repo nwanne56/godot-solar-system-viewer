@@ -54,6 +54,7 @@ ambient_light_color = Color( 0.980392, 0.941176, 0.705882, 1 )
 ambient_light_energy = 2.0
 
 [node name="Spatial" type="Spatial"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.83422, -1.45803, -10.4835 )
 
 [node name="Camera" type="Camera" parent="."]
 transform = Transform( 0.707107, -0.5, 0.5, 0, 0.707107, 0.707107, -0.707107, -0.5, 0.5, 20, 20, 20 )
@@ -61,10 +62,10 @@ fov = 56.25
 script = ExtResource( 3 )
 
 [node name="Button" type="Button" parent="Camera"]
-margin_left = 347.005
-margin_top = 540.944
-margin_right = 521.005
-margin_bottom = 589.944
+margin_left = 345.945
+margin_top = 500.684
+margin_right = 519.945
+margin_bottom = 549.684
 script = ExtResource( 5 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -73,37 +74,31 @@ __meta__ = {
 [node name="TextBox" type="CanvasLayer" parent="Camera"]
 
 [node name="MarginContainer" type="MarginContainer" parent="Camera/TextBox"]
-margin_left = 10.0
-margin_top = 482.0
-margin_right = 250.0
-margin_bottom = 594.0
+margin_left = 8.0
+margin_top = 392.0
+margin_right = 308.0
+margin_bottom = 592.0
+size_flags_horizontal = 0
+size_flags_vertical = 0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="Panel" type="Panel" parent="Camera/TextBox/MarginContainer"]
-margin_right = 268.0
-margin_bottom = 111.0
+margin_right = 300.0
+margin_bottom = 200.0
 custom_styles/panel = SubResource( 1 )
 
-[node name="MarginContainer" type="MarginContainer" parent="Camera/TextBox/MarginContainer"]
-margin_right = 268.0
-margin_bottom = 111.0
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="HBoxContainer" type="HBoxContainer" parent="Camera/TextBox/MarginContainer/MarginContainer"]
-margin_right = 268.0
-margin_bottom = 111.0
-
-[node name="Label" type="Label" parent="Camera/TextBox/MarginContainer/MarginContainer/HBoxContainer"]
-margin_top = 6.0
-margin_right = 268.0
-margin_bottom = 105.0
+[node name="Label" type="Label" parent="Camera/TextBox/MarginContainer"]
+margin_top = 25.0
+margin_right = 300.0
+margin_bottom = 175.0
 text = "A and D to move sidways.
 W and S to move back and forth.
 Q and E to move up and down.
+Hold down the left mouse button 
+to control the camera.
+
 Press F to free the mouse and ESC to quit.
 
 Click the button to reset the scene."
