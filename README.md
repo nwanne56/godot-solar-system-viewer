@@ -1,6 +1,15 @@
 # GDscript-SSystem
-Dr. Darg + David O.
+*Dr. Darg + David O.*
 
-download and run the game.exe file inside winexport to use
+Download and run the game.exe file inside winexport to use it.
+<br>
+Controls are inside the game.
 
-2021-2022
+**TODO:**
+
+| Goal |  Date Added  | Date Finished |
+|:-----|:--------:|------:|
+| Click on Planets functionality | 11/8/21 | N/A |
+
+ 
+*created 2021-2022*
