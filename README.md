@@ -11,5 +11,9 @@ Controls are inside the game.
 |:-----|:--------:|------:|
 | Click on Planets functionality | 11/8/21 | N/A |
 
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> f30490a5ff2fe89e59f011d584053764a20b08ac
 *created 2021-2022*
