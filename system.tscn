@@ -1,10 +1,10 @@
 [gd_scene load_steps=18 format=2]
 
-[ext_resource path="res://venus.gd" type="Script" id=1]
-[ext_resource path="res://earth.gd" type="Script" id=2]
-[ext_resource path="res://Camera_Controller.gd" type="Script" id=3]
+[ext_resource path="res://src/venus.gd" type="Script" id=1]
+[ext_resource path="res://src/earth.gd" type="Script" id=2]
+[ext_resource path="res://src/Camera_Controller.gd" type="Script" id=3]
 [ext_resource path="res://stars.png" type="Texture" id=4]
-[ext_resource path="res://Button.gd" type="Script" id=5]
+[ext_resource path="res://src/Button.gd" type="Script" id=5]
 
 [sub_resource type="StyleBoxFlat" id=1]
 bg_color = Color( 0.105882, 0.152941, 0.415686, 1 )
@@ -22,7 +22,7 @@ emission_energy = 16.0
 emission_operator = 0
 emission_on_uv2 = true
 
-[sub_resource type="SpatialMaterial" id=13]
+[sub_resource type="SpatialMaterial" id=3]
 albedo_color = Color( 0.145098, 0.662745, 0.0705882, 1 )
 
 [sub_resource type="SpatialMaterial" id=4]
@@ -127,7 +127,7 @@ script = ExtResource( 2 )
 
 [node name="CSGSphere" type="CSGSphere" parent="Spatial2"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00984669, 0.0229449, -0.0208411 )
-material = SubResource( 13 )
+material = SubResource( 3 )
 
 [node name="Spatial3" type="Spatial" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, 0 )
